@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+[data-theme='light'] {
+    --bg-color: #e4e4e7	;      /* gray-100 */
+    --text-color: #1f2937;    /* gray-800 */
+    --card-bg: #ffffff;       /* white */
+  }
+  
+  [data-theme='dark'] {
+    --bg-color: #111827;      /* gray-900 */
+    --text-color: #e5e7eb;    /* gray-200 */
+    --card-bg: #1f2937;       /* gray-800 */
+  }
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.4s ease-out forwards;
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+  
+  @media (max-width: 640px) {
+    .xs\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.4s ease-out;
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 0.3s ease-out forwards;
+    opacity: 0;
+  }
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
