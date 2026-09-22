@@ -63,10 +63,6 @@ A sleek and responsive weather application built with **React**, **Tailwind CSS*
    npm run dev
    ```
 
-## 📸 Screenshots
-
-_Add screenshots or a demo GIF of the app here._
-
 ## 🙌 Acknowledgements
 
 - [OpenWeatherMap API](https://openweathermap.org/api)
@@ -74,11 +70,4 @@ _Add screenshots or a demo GIF of the app here._
 - [Font Awesome](https://fontawesome.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-
-**Rohan Kumar Choudhary**
-[GitHub](https://github.com/RohanKumar-3) · [LinkedIn](https://www.linkedin.com/in/rohan-choudhary-903a1024b/)
